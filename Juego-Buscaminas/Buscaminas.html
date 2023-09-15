@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buscaminas</title>
+  <style>
+    canvas {
+      border: solid 2px #444;
+    }
+  </style>
+</head>
+<body>
+    <div id="board"></div>
+    <div class="modes">
+        <label><input type="radio" name="mode" value="normal" checked>Normal</label>
+        <label><input type="radio" name="mode" value="flag">Flag</label>
+        <label><input type="radio" name="mode" value="discover">Discover</label>
+        <button type="button" id="restart">
+            Reiniciar
+        </button>
+    </div>
+    <script src="./JuegoBuscaminas.js"></script>
+</body>
+</html>
